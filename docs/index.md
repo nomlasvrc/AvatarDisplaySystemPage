@@ -7,11 +7,11 @@ hero:
   tagline: アバターを好きな場所で見れるVRChat用ギミック
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: BOOTHを開く
+      link: https://booth.pm/ja/items/6271787
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 機能詳細
+      link: /features
 
 features:
   - title: 好きな場所で。
