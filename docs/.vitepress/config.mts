@@ -11,12 +11,14 @@ export default defineConfig({
       { text: 'ホーム', link: '/' },
       { text: 'アセット解説', link: '/assets' },
       { text: '機能詳細', link: '/features' },
+      { text: 'トラブルシューティング', link: '/troubleshooting' },
       { text: '更新履歴', link: '/changelog' }
     ],
 
     sidebar: [
       { text: 'アセット解説', link: '/assets' },
       { text: '機能詳細', link: '/features' },
+      { text: 'トラブルシューティング', link: '/troubleshooting' },
       { text: '更新履歴', link: '/changelog' }
     ],
 

@@ -16,6 +16,9 @@ hero:
       text: 機能詳細
       link: /features
     - theme: alt
+      text: トラブルシューティング
+      link: /troubleshooting
+    - theme: alt
       text: 更新履歴
       link: /changelog
 
