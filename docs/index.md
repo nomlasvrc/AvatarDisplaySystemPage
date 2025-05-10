@@ -8,7 +8,10 @@ hero:
   actions:
     - theme: brand
       text: BOOTHを開く
-      link: https://booth.pm/ja/items/6271787
+      link: https://nomlas.booth.pm/items/6271787
+    - theme: alt
+      text: アセット解説
+      link: /assets
     - theme: alt
       text: 機能詳細
       link: /features
