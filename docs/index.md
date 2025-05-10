@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: 機能詳細
       link: /features
+    - theme: alt
+      text: 更新履歴
+      link: /changelog
 
 features:
   - title: 好きな場所で。
