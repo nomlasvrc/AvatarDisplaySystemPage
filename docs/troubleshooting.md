@@ -6,6 +6,8 @@
 ![VCC Pre-Release Packages](img/vcc_pre.png)
 ### ALCOMの場合
 ![ALCOM Pre-Release Packages](img/alcom_pre.png)
+>[!Note]
+>普段プレリリースパッケージを使用しない場合は、誤操作防止のため、インポート後上記の許可を取り消しておくことをおすすめします。取り消した後も、バージョンが戻されることはございませんので、ご安心ください。
 
 ## アバターの断面図が見える！
 ・v2.0.0以上にアップデートしてください。
