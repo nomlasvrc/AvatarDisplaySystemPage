@@ -18,7 +18,7 @@
 ### 各prefabの特徴
 |  | AvatarDisplaySystem | AvatarDisplaySystem Local Variant | AvatarDisplaySystem Remote Player |
 | - | - | - | - |
-| 表示プレイヤー | 自分のみ | 自分のみ | インスタンス内全員 |
+| 表示可能プレイヤー | 自分のみ | 自分のみ | インスタンス内全員 |
 | 表示位置同期 | 〇 | × | 〇 |
 | 表示プレイヤー同期 | × | × | 〇 |
 | 描画安定度 | 〇 | 〇 | △ |
