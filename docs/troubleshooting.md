@@ -3,6 +3,9 @@
 ## ビルド出来ない！
 ・v2.0.0以上ではSDK 3.8.1以上が必要です。
 
+## 「SDK Callback」エラーが出る！
+`Udon/Editor/VRCCameraBuildChecker.cs`を削除してください。
+
 ## アバターの断面図が見える！
 ・v2.0.0以上にアップデートしてください。
 
