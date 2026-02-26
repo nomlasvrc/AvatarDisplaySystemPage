@@ -1,5 +1,16 @@
 # 更新履歴
 
+## 3.0.0
+2026-02-26
+> [!WARNING]
+> プロジェクトをバックアップしてから更新してください。
+- 手持ちカメラに対応
+- デザインを更新
+- prefabのバリアント化
+- その他多くの変更
+
+<img width="338" height="200" alt="image" src="https://github.com/user-attachments/assets/7f2234af-e8ba-4468-b497-c1556737c248" />
+
 ## 2.2.1
 2025-10-06
 - VRChat SDKのバージョンチェックを廃止
