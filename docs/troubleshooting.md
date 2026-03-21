@@ -1,13 +1,23 @@
 # トラブルシューティング
 
 ## ビルド出来ない！
-・v2.0.0以上ではSDK 3.8.1以上が必要です。
+v2.0.0以上ではSDK 3.8.1以上が必要です。
 
 ## 「SDK Callback」エラーが出る！
 `Udon/Editor/VRCCameraBuildChecker.cs`を削除してください。
 
 ## アバターの断面図が見える！
-・v2.0.0以上にアップデートしてください。
+v2.0.0以上にアップデートしてください。
 
 ## アバターの一部パーツが消える！
-・アバターのBoundsが統一されているかご確認ください。Modular Avatarの[Mesh Settings](https://modular-avatar.nadena.dev/ja/docs/reference/mesh-settings)などの一括設定ツールを使うと便利です。
+アバターのBoundsが統一されているかご確認ください。Modular Avatarの[Mesh Settings](https://modular-avatar.nadena.dev/ja/docs/reference/mesh-settings)などの一括設定ツールを使うと便利です。
+
+## ワールドオブジェクトが映り込む！
+シーン内に`MirrorReflection`レイヤーまたは`Player`レイヤーに設定されたオブジェクトが無いか確認してください。
+
+::: tip
+ミラー越しにしか見えないビデオスクリーンの作り方として「ビデオスクリーンを`MirrorReflection`レイヤーに設定する」という方法がありますが、このギミックと競合するため、シェーダーを用いた方法に移行することを推奨します。
+:::
+
+## 他のプレイヤーが映り込む！
+インスタンス内の他のプレイヤーを表示する`Remote Player.prefab`は、半径5m以内に自分以外の2人以上が集まると、指定していないプレイヤーが映り込みます。映り込みを絶対に避けたい場合は、インスタンス最大人数を2以下にしてください。
