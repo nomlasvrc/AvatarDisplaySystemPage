@@ -19,7 +19,8 @@ export default defineConfig({
       { text: 'アセット解説', link: '/assets' },
       { text: '機能詳細', link: '/features' },
       { text: 'トラブルシューティング', link: '/troubleshooting' },
-      { text: '更新履歴', link: '/changelog' }
+      { text: '更新履歴', link: '/changelog' },
+      { text: 'ライセンス', link: '/license' }
     ],
 
     socialLinks: [
