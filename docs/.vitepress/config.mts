@@ -20,7 +20,7 @@ export default defineConfig({
       { text: '機能詳細', link: '/features' },
       { text: 'トラブルシューティング', link: '/troubleshooting' },
       { text: '更新履歴', link: '/changelog' },
-      { text: 'ライセンス', link: '/license' }
+      { text: '利用規約', link: '/license' }
     ],
 
     socialLinks: [
