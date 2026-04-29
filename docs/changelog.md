@@ -1,5 +1,13 @@
 # 更新履歴
 
+## 3.0.4
+2026-04-29
+- L10n
+  - Support for English is provided.
+  - If you would like to display the menu in English, please replace the existing prefab with `Prefabs/Menu English Variant.prefab`.
+- 動作の軽量化
+- 不要なコードを削除
+
 ## 3.0.3
 2026-03-24
 - VR環境でスケールのリセットボタンが押しにくい問題の修正
