@@ -1,5 +1,19 @@
 # 更新履歴
 
+## 3.0.4-ios
+2026-05-13
+- Android向けの処理がiOSに対して行われていなかった問題の修正
+
+::: details 詳細
+```csharp
+#if UNITY_ANDROID // [!code --]
+#if UNITY_ANDROID || UNITY_IOS // [!code ++]
+#endif
+```
+[条件付きコンパイル - Unity マニュアル](https://docs.unity3d.com/ja/2022.3/Manual/PlatformDependentCompilation.html)を参考に、`UNITY_IOS`を追加しました。
+実機が手元に無いため未検証ですが、スクリプトシンボルの特性を考えると、ほとんどの場合で正常に動作すると思われます。
+:::
+
 ## 3.0.4
 2026-04-29
 - L10n
