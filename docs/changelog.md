@@ -2,7 +2,7 @@
 
 ## 3.1.2
 2026-09-27
-- AvatarDisplaySystem Local Variant.prefabの不要なオーバーライドを削除
+- AvatarDisplaySystem Local Variant.prefabのMenuが崩れていた問題の修正
 
 ## 3.1.1
 2026-08-19
